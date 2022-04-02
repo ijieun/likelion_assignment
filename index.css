@@ -3,15 +3,18 @@ h1{
 }
 
 .row img{
-    width: 100px;
+    width: 200px;
     text-align: center;
+    border-radius: 100px;
 }
 
 #selfie{
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 200px;
+    border-radius: 50px;
     
+}
+#selfie.hover{
+    border: 5px solid black;
 }
 
 .selfie{
@@ -20,4 +23,8 @@ h1{
 }
 body{
     background-color: aqua;
+}
+
+#hotplace{
+    height: 135px;
 }
