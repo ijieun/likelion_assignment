@@ -1,11 +1,15 @@
 h1{
     text-align: center;
+    background-color: orange;
 }
 
 .row img{
     width: 200px;
     text-align: center;
     border-radius: 100px;
+}
+.row{
+    text-align: center;
 }
 
 #selfie{
@@ -14,7 +18,7 @@ h1{
     
 }
 #selfie.hover{
-    border: 5px solid black;
+    
 }
 
 .selfie{
@@ -22,9 +26,9 @@ h1{
 
 }
 body{
-    background-color: aqua;
+    background-color: linen;
 }
 
-#hotplace{
-    height: 135px;
+#netflix{
+    height: 270px;
 }
