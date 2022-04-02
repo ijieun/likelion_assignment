@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+.row img{
+    width: 100px;
+    text-align: center;
+}
+
+#selfie{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.selfie{
+    text-align: center;
+
+}
+body{
+    background-color: aqua;
+}
