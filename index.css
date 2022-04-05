@@ -1,34 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=IBM+Plex+Sans+KR:wght@200&family=Noto+Serif+KR:wght@200&family=Sunflower:wght@300&family=Yeon+Sung&display=swap');
+body{
+    font-family: 'Yeon Sung', cursive;
+}
 h1{
     text-align: center;
     background-color: orange;
 }
 
-.row img{
-    width: 200px;
-    text-align: center;
-    border-radius: 100px;
+.col-md-4{
+    margin-top: 80px;
+    margin-bottom: 180px;
 }
-.row{
-    text-align: center;
-}
+
+.col-md-4 img{
+    width: 250px;
+    border-radius: 120px;
+} 
+
 
 #selfie{
-    width: 200px;
-    border-radius: 50px;
-    
-}
-#selfie.hover{
+    width: 250px;
+    border-radius: 170px;
+    margin: 20px;
     
 }
 
-.selfie{
-    text-align: center;
-
-}
 body{
+    text-align: center;
     background-color: linen;
+    font-size: 30px;
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 6000px;
+
+
 }
 
 #netflix{
     height: 270px;
+}
+
+.col-md-6{
+    margin-bottom: 200px ;
+}
+
+.col-md-6 img{
+    width: 400px;
+    border-radius: 80px;
+    margin: 20px;
+
+}
+
+#gogo{
+    width: 400px;
+    margin: 150px;
+}
+
+img{
+    padding: 10px;
+}
+
+#cute{
+    width: 450px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+#loading{
+    margin: 150px;
+}
+
+#start{
+    margin-top: 100px;
+}
+
+#end{
+    margin-bottom: 500px;
+}
+
+#netflix{
+    height: 330px;
+}
+
+span{
+    color: orange;
 }
