@@ -10,18 +10,27 @@ h1{
 .col-md-4{
     margin-top: 80px;
     margin-bottom: 180px;
+
 }
 
 .col-md-4 img{
     width: 250px;
     border-radius: 120px;
+    transition: all 0.2s linear;
+
 } 
+
+.col-md-4 img:hover{
+    transform: scale(1.2);
+    border-radius: 0;
+}
 
 
 #selfie{
     width: 250px;
     border-radius: 170px;
     margin: 20px;
+    border: 2px solid orange;
     
 }
 
@@ -49,7 +58,13 @@ body{
     width: 400px;
     border-radius: 80px;
     margin: 20px;
+    transition: all 0.2s linear;
 
+}
+
+.col-md-6 img:hover{
+    transform: scale(1.4);
+    border-radius: 0px;
 }
 
 #gogo{
@@ -57,14 +72,30 @@ body{
     margin: 150px;
 }
 
-img{
-    padding: 10px;
-}
-
 #cute{
     width: 450px;
     margin-top: 150px;
     margin-bottom: 200px;
+    
+}
+
+#cute2{
+    width: 450px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+
+}
+/*귀여워 부분 이미지 전환 */
+.cute_box img:last-child{display: none;}
+.cute_box:hover img:first-child{display: none;}
+.cute_box:hover img:last-child{display: inline-block;}
+
+.cute_box{
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #loading{
@@ -85,4 +116,11 @@ img{
 
 span{
     color: orange;
+}
+
+#rest .col-md-4 img{
+    box-shadow: 0 0 10px 0.1px #688CD2;
+}
+#artist .col-md-4 img{
+    box-shadow: 0 0 10px 0.1px #8468D2;
 }
