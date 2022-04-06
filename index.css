@@ -85,6 +85,7 @@ body{
     margin-bottom: 200px;
 
 }
+
 /*귀여워 부분 이미지 전환 */
 .cute_box img:last-child{display: none;}
 .cute_box:hover img:first-child{display: none;}
@@ -123,4 +124,8 @@ span{
 }
 #artist .col-md-4 img{
     box-shadow: 0 0 10px 0.1px #8468D2;
+}
+
+p {
+    
 }
