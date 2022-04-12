@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=IBM+Plex+Sans+KR:wght@200&family=Noto+Serif+KR:wght@200&family=Sunflower:wght@300&family=Yeon+Sung&display=swap');
 body{
-    font-family: 'Yeon Sung', cursive;
+    font-family: 'Yeon Sung', cursive;   
 }
+
 h1{
     text-align: center;
     background-color: orange;
@@ -124,4 +125,14 @@ span{
 }
 #artist .col-md-4 img{
     box-shadow: 0 0 10px 0.1px #8468D2;
+}
+
+/*week2 */
+.dark-mode{
+    background-color: black;
+    color: white;
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 6000px;
 }

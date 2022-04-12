@@ -8,8 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
 
 </head>
+
 <body>
     
     <header>
@@ -47,11 +49,15 @@
     <br><br>
     
     <section>
+      <input type="button" id="color-button" onclick="color_click();" value="마음에 드는 색을 뽑아보세요"/>
+      <button onclick="dark_button()">모드 전환</button>
+
     <div id="start">
         안녕하세요! 저는 <br> <br> <div class="selfie"><img id="selfie" src="images/me.jpg"><br><span>이지은</span><br></div>
         입니다.
 
     </div>
+    <input type="button" id="image-button" onclick="image_change();" value="다른 사진 보기"/>
      <div class="container">
       <div class="row">
         <div class="col-md-6"><img src="images/myongji.png"><br> 융합소프트웨어학부 데이터테크놀로지학과이고</div>
