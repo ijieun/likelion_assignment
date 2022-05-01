@@ -50,7 +50,7 @@
     
     <section>
       <input type="button" id="color-button" onclick="color_click();" value="마음에 드는 색을 뽑아보세요"/>
-      <button onclick="dark_button()">모드 전환</button>
+      <button id="dark_button" onclick="dark_button()">밤 모드 전환</button>
 
     <div id="start">
         안녕하세요! 저는 <br> <br> <div class="selfie"><img id="selfie" src="images/me.jpg"><br><span>이지은</span><br></div>
@@ -129,6 +129,26 @@
     
  
 </section>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://likelion3jo-ijieun.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 </body>
 </html>

@@ -27,4 +27,7 @@ alert("안녕하세요. "+year+"년 "+month+"월 "+day+"일 "+hour+"시 "+Min+"�
 function dark_button(){
     var my = document.body;
     my.classList.toggle("dark-mode");
+    // if(currentClass =="dark-mode"){
+    // document.getElementById('dark_button').innerHTML="낮 모드 전환";}
 }
+
